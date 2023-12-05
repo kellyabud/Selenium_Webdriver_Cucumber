@@ -1,0 +1,63 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "verificação;verificação-do-título-da-página",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Verificação do Título da Página",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "que fulano visita a página inicial do Mercado Livre",
+            "match": {
+              "location": "features\\step-definitions\\CT002_verificar_título_steps.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4254346800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "ele verifica o título da página",
+            "match": {
+              "location": "features\\step-definitions\\CT002_verificar_título_steps.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3728369199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "confirma o resultado",
+            "match": {
+              "location": "features\\step-definitions\\CT002_verificar_título_steps.js:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 678395600
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "verificação",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Verificação",
+    "tags": [],
+    "uri": "features\\step-definitions\\CT001_verificar_titulo_steps.feature"
+  }
+]
